@@ -32,11 +32,11 @@ Go to GitHub and create a new repository. The repository name will determine you
 2. **Create `_config.yml`:**
    - `_config.yml` is the configuration file for your Jekyll site. Create this file in the root directory of your repository and add your site configuration.
 
-```yml
-title: My GitHub Page
-description: This is my site hosted on GitHub Pages using Jekyll.
-theme: minima
-```
+  ```yml
+  title: My GitHub Page
+  description: This is my site hosted on GitHub Pages using Jekyll.
+  theme: minima
+  ```
 3. **Create `index.md`:**
    - `index.md` will be the main content file for your site. Create this file in the root directory of your repository and add some initial content.
 
