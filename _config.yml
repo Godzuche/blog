@@ -7,10 +7,10 @@ title: My GitHub Page
 description: A blog hosted on GitHub Pages using Jekyll
 
 # Base URL of your site
-baseurl: "/my-blog" # For a personal or organization site, leave this blank. For a project site, set this to "/<repository-name>"
+baseurl: "/my-blog" # For a personal or organization site, leave this blank. For a project site, set this to your "/<repository-name>"
 
 # URL of your site
-url: "https://<username>.github.io" # Replace <username> with your GitHub username
+url: "https://godzuche.github.io" # Replace godzuche with your GitHub username
 
 # Theme to use (this uses the default Jekyll theme)
 theme: minima
