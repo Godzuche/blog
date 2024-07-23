@@ -30,8 +30,7 @@ Go to GitHub and create a new repository. The repository name will determine you
    - Create the necessary Jekyll files by clicking "Add file" > "Create new file" and then creating the following files:
 
 2. **Create `_config.yml`:**
-   - `_config.yml` is the configuration file for your Jekyll site. Create this file in the root directory of your repository and add your site configuration.
-
+  - `_config.yml` is the configuration file for your Jekyll site. Create this file in the root directory of your repository and add your site configuration.
   ```yml
   title: My GitHub Page
   description: This is my site hosted on GitHub Pages using Jekyll.
@@ -39,7 +38,6 @@ Go to GitHub and create a new repository. The repository name will determine you
   ```
 3. **Create `index.md`:**
    - `index.md` will be the main content file for your site. Create this file in the root directory of your repository and add some initial content.
-
 ```yml
 ---
 layout: default
@@ -50,7 +48,6 @@ title: Home
 
 This is my site hosted on GitHub Pages using Jekyll.
 ```
-
 4. **Create `_posts` directory and your first blog post:**
    Create a `_posts` directory in the root of your repository. This directory is akin to a path or folder in your File Explorer. It is where you would be creating your blog posts.
    - Click on **Add file**
