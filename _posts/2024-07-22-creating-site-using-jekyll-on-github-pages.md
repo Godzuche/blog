@@ -39,16 +39,8 @@ Go to GitHub and create a new repository. The repository name will determine you
 
 3. **Create `index.md`:**
    - `index.md` will be the main content file for your site. Create this file in the root directory of your repository and add some initial content.
-```yml
----
-layout: default
-title: Home
----
 
-# Welcome to My GitHub Page
 
-This is my site hosted on GitHub Pages using Jekyll.
-```
 
 4. **Create `_posts` directory and your first blog post:**
    Create a `_posts` directory in the root of your repository. This directory is akin to a path or folder in your File Explorer. It is where you would be creating your blog posts.
@@ -59,6 +51,7 @@ This is my site hosted on GitHub Pages using Jekyll.
    - Once the directory is created, just enter a file name to create a new file.
    - The name should be in this format: `YEAR-MONTH-DAY-title.md`. For example, 2024-07-22-my-first-post.md is a valid name for My First Post.
    Add the following content to the `2024-07-22-my-first-post.md` file:
+
 ```yml
 ---
 layout: post
