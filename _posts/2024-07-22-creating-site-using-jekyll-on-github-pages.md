@@ -39,6 +39,7 @@ Go to GitHub and create a new repository. The repository name will determine you
 
 3. **Create `index.md`:**
    - `index.md` will be the main content file for your site. Create this file in the root directory of your repository and add some initial content.
+
    ```yml
    ---
    layout: default
