@@ -69,7 +69,7 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
    2. Click on **Create new file**
    3. For the file name, use `_posts/` (Hurray! So easy! You just created _posts directory). Directories are created by appending `/` to the file name. Inside this directory you would create your first blog post.
    4. Once the directory is created, just enter a file name to create a new file.
-   5. The name should be in this format: `YEAR-MONTH-DAY-title.md`. For example, 2024-07-25-my-first-post.md is a valid name for My First Post.
+   5. The name should be in this format: `YEAR-MONTH-DAY-title.md`. For example, 2024-07-26-my-first-post.md is a valid name for My First Post.
    6. Add the following content to the `2024-07-26-my-first-post.md` file:
 
 
