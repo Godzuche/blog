@@ -32,6 +32,7 @@ Follow the steps below to set up Jekyll:
    - If you didn't add a README file when creating the repository, you can do so now by clicking "Add a README" on the repository main page.
    - Create the necessary Jekyll files by clicking "Add file" > "Create new file" and then creating the neccessary files as described below.
 
+
 2. **Create `_config.yml`:**
    
    `_config.yml` is the configuration file for your Jekyll site. Create this file in the root directory of your repository and add your site configuration.
@@ -42,7 +43,7 @@ Follow the steps below to set up Jekyll:
      theme: minima
      ```
 
-4. **Create `index.md`:**
+3. **Create `index.md`:**
    
    `index.md` will be the main content file for your site. Create this file in the root directory of your repository and add some initial content.
 
@@ -57,7 +58,7 @@ Follow the steps below to set up Jekyll:
      This is my site hosted on GitHub Pages using Jekyll.
      ```
 
-5. **Create `_posts` directory and your first blog post:**
+4. **Create `_posts` directory and your first blog post:**
 
    Create a `_posts` directory in the root of your repository. This directory is akin to a path or folder in your File Explorer. It is where you would be creating your blog posts.
    
@@ -69,15 +70,15 @@ Follow the steps below to set up Jekyll:
    6. Add the following content to the `2024-07-26-my-first-post.md` file:
 
 
-    ```yml
-    ---
-    layout: post
-    title: "My First Post"
-    date: 2024-07-26
-    ---
+```yml
+---
+layout: post
+title: "My First Post"
+date: 2024-07-26
+---
 
-    This is my first blog post on my new Jekyll site! :)
-    ```
+This is my first blog post on my new Jekyll site! :)
+```
 
 #### 3. Commit and Push Your Changes
 
@@ -101,11 +102,9 @@ Now, you can share the `URL` to friends :)
 ### Customizing Your Site
 
 **Themes:**
-
 GitHub Pages supports various themes. You can change the theme by updating the `_config.yml` file and specifying a different theme. In this post, we used the `minima` theme.
 
 **Custom Domain:**
-
 You can use a custom domain for your GitHub Pages site. Follow the instructions here to set it up.
 
 ### Conclusion
