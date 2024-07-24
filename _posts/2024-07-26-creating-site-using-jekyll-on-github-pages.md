@@ -29,7 +29,9 @@ For example, you can set the repository name to "blog".
 Follow the steps below to set up Jekyll:
 
 1. **Initialize the repository with Jekyll:**
-   - If you didn't add a README file when creating the repository, you can do so now by clicking "Add a README" on the repository main page.
+You have to initialize the repository for Jekyll. Jekyll is a static site generator that uses markdown to generate sites so you would be creating a `.md` file for each page.
+
+   - For a personal or organisation site, if you didn't add a README file when creating the repository, you can do so now by clicking "Add a README" on the repository main branch. The `README.md` file serves as your personal site/portfolio. You can skip this part if you are creating project pages like we are doing in this post. Jekyll uses `README.md` or `index.md` file as home page.
    - Create the necessary Jekyll files by clicking "Add file" > "Create new file" and then creating the neccessary files as described below.
 
 
@@ -45,7 +47,8 @@ Follow the steps below to set up Jekyll:
 
 3. **Create `index.md`:**
    
-   `index.md` will be the main content file for your site. Create this file in the root directory of your repository and add some initial content.
+   `index.md` will be the main content file for your site. It is the home page of your site.
+    Create this file in the root directory of your repository and add some initial content.
 
      ```yml
      ---
