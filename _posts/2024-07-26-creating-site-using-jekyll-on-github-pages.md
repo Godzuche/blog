@@ -136,5 +136,6 @@ Creating a site or blog using Jekyll on GitHub Pages is straightforward and does
 By following these steps, you can have your site up and running quickly. Happy coding! :)
 
 
+Check out the code for this blog at: [My Blog Repostory](https://github.com/Godzuche/my-blog/tree/gh-pages)
 
    
