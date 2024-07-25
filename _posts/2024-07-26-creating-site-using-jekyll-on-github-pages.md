@@ -40,9 +40,24 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
    `_config.yml` is the configuration file for your Jekyll site. Create this file in the root directory of your repository and add your site configuration.
 
      ```yml
+
+     # Site title
      title: My GitHub Page
+
+     # Site description
      description: This is my site hosted on GitHub Pages using Jekyll.
+
+     # Theme to use (this uses the default Jekyll theme)
      theme: minima
+     
+     # Base URL of your site
+     baseurl: "/my-blog" # For a personal or organization site, leave this blank - `baseurl: ""`. For a project site, set this to your "/<repository-name>"
+
+     # URL of your site
+     url: "https://godzuche.github.io" # Replace godzuche with your GitHub username
+
+     # Permalink settings for blog posts
+     permalink: /:year/:month/:day/:title/
      ```
 
 3. **Create `index.md`:**
