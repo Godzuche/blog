@@ -8,7 +8,16 @@ date: 2024-07-26
 
 ### Introduction
 
-GitHub Pages allows you to host websites directly from your GitHub repositories, and Jekyll is a static site generator that's integrated with GitHub Pages. This blog post is actually a simple implementation of Github Page :)
+[GitHub Pages](https://pages.github.com/) allows you to host websites directly from your GitHub repositories, and [Jekyll](https://jekyllrb.com/) is a static site generator that's integrated with GitHub Pages. This blog post is actually a simple implementation of Github Page. :)
+
+Jekyll uses "[YAML Front Matter](https://jekyllrb.com/docs/front-matter/)" which goes at the top of your special files that needs to be processed by Jekyll. It is in the form of valid YAML set between tripple-dash lines like in the basic example below:
+
+```yml
+     ---
+     layout: default
+     title: Home Page
+     ---
+```
 
 This guide will show you how to create a site or blog using Jekyll on GitHub Pages without needing to install Jekyll locally.
 
@@ -125,7 +134,7 @@ Now, you can share the `URL` to friends :)
 ### Customizing Your Site
 
 **Themes:**
-GitHub Pages supports various themes. You can change the theme by updating the `_config.yml` file and specifying a different theme. In this post, we used the `minima` theme.
+GitHub Pages supports various themes. You can change the theme by updating the `_config.yml` file and specifying a different theme. In this post, we used the `minima` theme. For a list of supported themes, see ["Supported themes"](https://pages.github.com/themes/) on the GitHub Pages site.
 
 **Custom Domain:**
 You can use a custom domain for your GitHub Pages site. Follow the instructions here to set it up.
