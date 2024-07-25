@@ -8,7 +8,9 @@ date: 2024-07-26
 
 ### Introduction
 
-GitHub Pages allows you to host websites directly from your GitHub repositories, and Jekyll is a static site generator that's integrated with GitHub Pages. This guide will show you how to create a site or blog using Jekyll on GitHub Pages without needing to install Jekyll locally.
+GitHub Pages allows you to host websites directly from your GitHub repositories, and Jekyll is a static site generator that's integrated with GitHub Pages. This blog post is actually a simple implementation of Github Page :)
+
+This guide will show you how to create a site or blog using Jekyll on GitHub Pages without needing to install Jekyll locally.
 
 ### Prerequisites
 
@@ -56,11 +58,14 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
      # URL of your site
      url: "https://godzuche.github.io" # Replace godzuche with your GitHub username
 
-     # Permalink settings for blog posts
+     # Permalink settings for blog posts (this uses the default Jekyll theme)
      permalink: /:year/:month/:day/:title/
      ```
 
-3. **Create `index.md`:**
+   permalink: Defines the URL structure for your posts. The default format is `/:year/:month/:day/:title/`,
+   which creates URLs like `https://<username>.github.io/<repository-name>/2024/07/22/creating-site-using-jekyll-on-github-pages/`.
+
+4. **Create `index.md`:**
    
    `index.md` will be the main content file for your site. It is the home page of your site.
     Create this file in the root directory of your repository and add some initial content.
@@ -76,7 +81,7 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
      This is my site hosted on GitHub Pages using Jekyll.
      ```
 
-4. **Create `_posts` directory and your first blog post:**
+5. **Create `_posts` directory and your first blog post:**
 
    Create a `_posts` directory in the root of your repository. This directory is akin to a path or folder in your File Explorer. It is where you would be creating your blog posts.
    
