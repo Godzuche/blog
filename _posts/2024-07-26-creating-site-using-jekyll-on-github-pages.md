@@ -13,10 +13,10 @@ date: 2024-07-26
 Jekyll uses "[YAML Front Matter](https://jekyllrb.com/docs/front-matter/)" which goes at the top of your special files that needs to be processed by Jekyll. It is in the form of valid YAML set between tripple-dash lines like in the basic example below:
 
 ```yml
-     ---
-     layout: default
-     title: Home Page
-     ---
+---
+layout: default
+title: Home Page
+---
 ```
 
 This guide will show you how to create a site or blog using Jekyll on GitHub Pages without needing to install Jekyll locally.
@@ -79,18 +79,18 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
    `index.md` will be the main content file for your site. It is the home page of your site.
     Create this file in the root directory of your repository and add some initial content.
 
-     ```yml
-     ---
-     layout: default
-     title: Home
-     ---
+   ```yml
+   ---
+   layout: default
+   title: Home
+   ---
 
-     # Welcome to My GitHub Page
+   # Welcome to My GitHub Page
 
-     This is my site hosted on GitHub Pages using Jekyll.
-     ```
+   This is my site hosted on GitHub Pages using Jekyll.
+   ```
 
-5. **Create `_posts` directory and your first blog post:**
+6. **Create `_posts` directory and your first blog post:**
 
    Create a `_posts` directory in the root of your repository. This directory is akin to a path or folder in your File Explorer. It is where you would be creating your blog posts.
    
