@@ -102,15 +102,15 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
    6. Add the following content to the `2024-07-26-my-first-post.md` file:
 
 
-```yml
----
-layout: post
-title: "My First Post"
-date: 2024-07-26
----
-
-This is my first blog post on my new Jekyll site! :)
-```
+   ```yml
+   ---
+   layout: post
+   title: "My First Post"
+   date: 2024-07-26
+   ---
+   
+   This is my first blog post on my new Jekyll site! :)
+   ```
 
 #### 3. Commit and Push Your Changes
 
