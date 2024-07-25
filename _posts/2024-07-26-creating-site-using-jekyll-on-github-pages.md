@@ -35,18 +35,19 @@ Go to GitHub and create a new repository. The repository name will determine you
 - For project pages, you can name the repository anything you like, and the URL will be `https://<username>.github.io/<repository-name>`. We will be using this option for this post.
 For example, you can set the repository name to "blog".
 
+
 #### 2. Set Up Jekyll on GitHub
 
 Follow the steps below to set up Jekyll:
 
-1. **Initialize the repository with Jekyll:**
++ **Initialize the repository with Jekyll:**
 You have to initialize the repository for Jekyll. Jekyll is a static site generator that uses markdown to generate sites so you would be creating a `.md` file for each page.
 
    - For a personal or organisation site, if you didn't add a README file when creating the repository, you can do so now by clicking "Add a README" on the repository main branch. The `README.md` file serves as your personal site/portfolio. You can skip this part if you are creating project pages like we are doing in this post. Jekyll uses `README.md` or `index.md` file as home page.
    - Create the necessary Jekyll files by clicking "Add file" > "Create new file" and then creating the neccessary files as described below.
 
 
-2. **Create `_config.yml`:**
++ **Create `_config.yml`:**
    
    `_config.yml` is the configuration file for your Jekyll site. Create this file in the root directory of your repository and add your site configuration.
 
@@ -74,7 +75,7 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
    `permalink` defines the `URL` structure for your posts. The default format is `/:year/:month/:day/:title/`,
    which creates URLs like `https://<username>.github.io/<repository-name>/2024/07/26/creating-site-using-jekyll-on-github-pages/`.
 
-4. **Create `index.md`:**
++ **Create `index.md`:**
    
    `index.md` will be the main content file for your site. It is the home page of your site.
     Create this file in the root directory of your repository and add some initial content.
@@ -90,7 +91,7 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
    This is my site hosted on GitHub Pages using Jekyll.
    ```
 
-6. **Create `_posts` directory and your first blog post:**
++ **Create `_posts` directory and your first blog post:**
 
    Create a `_posts` directory in the root of your repository. This directory is akin to a path or folder in your File Explorer. It is where you would be creating your blog posts.
    
@@ -112,11 +113,14 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
    This is my first blog post on my new Jekyll site! :)
    ```
 
+
+
 #### 3. Commit and Push Your Changes
 
 After adding your site content, commit and push your changes to GitHub. If you're editing directly on GitHub, save the changes.
 
 Well done! 🙌 You have finished creating your beautiful site but one more step left - you need to make it go live by `hosting` it.
+
 
 #### 4. Enable Github Pages (Hosting)
 
@@ -131,6 +135,7 @@ depending on the type of Github page you created as described in `step 1`. For o
 
 Now, you can share the `URL` to friends :)
 
+
 ### Customizing Your Site
 
 **Themes:**
@@ -138,6 +143,7 @@ GitHub Pages supports various themes. You can change the theme by updating the `
 
 **Custom Domain:**
 You can use a custom domain for your GitHub Pages site. Follow the instructions here to set it up.
+
 
 ### Conclusion
 
