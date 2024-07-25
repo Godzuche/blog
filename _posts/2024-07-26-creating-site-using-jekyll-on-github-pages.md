@@ -62,8 +62,8 @@ You have to initialize the repository for Jekyll. Jekyll is a static site genera
      permalink: /:year/:month/:day/:title/
      ```
 
-   permalink: Defines the URL structure for your posts. The default format is `/:year/:month/:day/:title/`,
-   which creates URLs like `https://<username>.github.io/<repository-name>/2024/07/22/creating-site-using-jekyll-on-github-pages/`.
+   `permalink` defines the `URL` structure for your posts. The default format is `/:year/:month/:day/:title/`,
+   which creates URLs like `https://<username>.github.io/<repository-name>/2024/07/26/creating-site-using-jekyll-on-github-pages/`.
 
 4. **Create `index.md`:**
    
