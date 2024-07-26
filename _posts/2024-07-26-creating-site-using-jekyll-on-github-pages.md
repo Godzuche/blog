@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating a Site or Blog Using Jekyll on GitHub Pages (Without Local Installation)"
+title: "GitHub Pages"
 date: 2024-07-26
 ---
 
