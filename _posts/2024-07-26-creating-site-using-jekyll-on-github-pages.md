@@ -142,7 +142,7 @@ Now, you can share the `URL` to friends :)
 GitHub Pages supports various themes. You can change the theme by updating the `_config.yml` file and specifying a different theme. In this post, we used the `minima` theme. For a list of supported themes, see ["Supported themes"](https://pages.github.com/themes/) on the GitHub Pages site.
 
 **Custom Domain:**
-You can use a custom domain for your GitHub Pages site. Follow the instructions here to set it up.
+You can use a custom domain for your GitHub Pages site. For more information on custom domains, check out "[Custom Domain for Github Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)".
 
 
 ### Conclusion
